@@ -1,0 +1,34 @@
+
+.sectionform{
+	min-width:350px;
+	
+}
+.sectionform div, .sectionconfirm div{
+	width:120px;
+	display:inline-block;
+}
+.sectionform input{
+	min-width:73%;
+}
+.sectionform input, .sectionform div, .sectionconfirm div{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.sectionform .submit{
+	min-width:7em;
+}
+.sectionform form{
+	border:1px solid black;
+	margin:10px;
+	padding:10px;
+}
+.sectionimage img, .sectionconfirm img{
+	width:98%;
+	min-width:300px;
+}
+.section1{
+	float:right;
+}
+.sectionform fieldset{
+	margin-bottom:5px;
+}

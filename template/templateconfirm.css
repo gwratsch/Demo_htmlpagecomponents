@@ -1,0 +1,46 @@
+body{
+	display:grid;
+}
+header, nav, section,aside, footer{
+	grid-column:1;
+}
+header{
+	grid-row:1;
+}
+nav{
+	grid-row:2;
+}
+.sectionconfirm{
+	grid-row:3;
+}
+.sectionimage{
+	grid-row:4;
+}
+aside{
+	grid-row:5;
+}
+footer{
+	grid-row:6;
+}
+@media(min-width:600px){
+	header{
+		grid-column:1 /span 2;
+		grid-row:1;
+	}
+	nav{
+		grid-column:1 / span 2;
+		grid-row:2;
+	}
+	.sectionconfirm{
+		grid-column:1;
+		grid-row:3;
+	}
+	.sectionimage{
+		grid-column:2;
+		grid-row:3;
+	}
+	footer{
+		grid-column:1 / span 2;
+		grid-row:4;
+	}
+}

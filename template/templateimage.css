@@ -1,0 +1,43 @@
+body{
+	display:grid;
+}
+header, nav, sectionimage,aside, footer{
+	grid-column:1;
+}
+header{
+	grid-row:1;
+}
+nav{
+	grid-row:2;
+}
+sectionimage{
+	grid-row:3;
+}
+aside{
+	grid-row:4;
+}
+footer{
+	grid-row:5;
+}
+@media(min-width:600px){
+	header{
+		grid-column:1 /span 2;
+		grid-row:1;
+	}
+	nav{
+		grid-column:1 / span 2;
+		grid-row:2;
+	}
+	.sectionimage{
+		grid-column:1;
+		grid-row:3;
+	}
+	aside{
+		grid-column:2;
+		grid-row:3;
+	}
+	footer{
+		grid-column:1 / span 2;
+		grid-row:4;
+	}
+}
